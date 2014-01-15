@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		370952141886DF9D00C05D18 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370952131886DF9D00C05D18 /* Cocoa.framework */; };
+		3709521E1886DF9D00C05D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3709521C1886DF9D00C05D18 /* InfoPlist.strings */; };
+		370952201886DF9D00C05D18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709521F1886DF9D00C05D18 /* main.m */; };
+		370952241886DF9D00C05D18 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 370952221886DF9D00C05D18 /* Credits.rtf */; };
+		370952271886DF9D00C05D18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 370952261886DF9D00C05D18 /* AppDelegate.m */; };
+		3709522A1886DF9D00C05D18 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370952281886DF9D00C05D18 /* MainMenu.xib */; };
+		3709522C1886DF9D00C05D18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3709522B1886DF9D00C05D18 /* Images.xcassets */; };
+		370952331886DF9D00C05D18 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370952321886DF9D00C05D18 /* XCTest.framework */; };
+		370952341886DF9D00C05D18 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370952131886DF9D00C05D18 /* Cocoa.framework */; };
+		3709523C1886DF9D00C05D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3709523A1886DF9D00C05D18 /* InfoPlist.strings */; };
+		3709523E1886DF9D00C05D18 /* FibreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709523D1886DF9D00C05D18 /* FibreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		370952351886DF9D00C05D18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370952081886DF9D00C05D18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3709520F1886DF9D00C05D18;
+			remoteInfo = Fibre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		370952101886DF9D00C05D18 /* Fibre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fibre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		370952131886DF9D00C05D18 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		370952161886DF9D00C05D18 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		370952171886DF9D00C05D18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		370952181886DF9D00C05D18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3709521B1886DF9D00C05D18 /* Fibre-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fibre-Info.plist"; sourceTree = "<group>"; };
+		3709521D1886DF9D00C05D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3709521F1886DF9D00C05D18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		370952211886DF9D00C05D18 /* Fibre-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fibre-Prefix.pch"; sourceTree = "<group>"; };
+		370952231886DF9D00C05D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		370952251886DF9D00C05D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		370952261886DF9D00C05D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		370952291886DF9D00C05D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3709522B1886DF9D00C05D18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		370952311886DF9D00C05D18 /* FibreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		370952321886DF9D00C05D18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		370952391886DF9D00C05D18 /* FibreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FibreTests-Info.plist"; sourceTree = "<group>"; };
+		3709523B1886DF9D00C05D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3709523D1886DF9D00C05D18 /* FibreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3709520D1886DF9D00C05D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370952141886DF9D00C05D18 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3709522E1886DF9D00C05D18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370952341886DF9D00C05D18 /* Cocoa.framework in Frameworks */,
+				370952331886DF9D00C05D18 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		370952071886DF9D00C05D18 = {
+			isa = PBXGroup;
+			children = (
+				370952191886DF9D00C05D18 /* Fibre */,
+				370952371886DF9D00C05D18 /* FibreTests */,
+				370952121886DF9D00C05D18 /* Frameworks */,
+				370952111886DF9D00C05D18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		370952111886DF9D00C05D18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370952101886DF9D00C05D18 /* Fibre.app */,
+				370952311886DF9D00C05D18 /* FibreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370952121886DF9D00C05D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370952131886DF9D00C05D18 /* Cocoa.framework */,
+				370952321886DF9D00C05D18 /* XCTest.framework */,
+				370952151886DF9D00C05D18 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		370952151886DF9D00C05D18 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370952161886DF9D00C05D18 /* AppKit.framework */,
+				370952171886DF9D00C05D18 /* CoreData.framework */,
+				370952181886DF9D00C05D18 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		370952191886DF9D00C05D18 /* Fibre */ = {
+			isa = PBXGroup;
+			children = (
+				370952251886DF9D00C05D18 /* AppDelegate.h */,
+				370952261886DF9D00C05D18 /* AppDelegate.m */,
+				370952281886DF9D00C05D18 /* MainMenu.xib */,
+				3709522B1886DF9D00C05D18 /* Images.xcassets */,
+				3709521A1886DF9D00C05D18 /* Supporting Files */,
+			);
+			path = Fibre;
+			sourceTree = "<group>";
+		};
+		3709521A1886DF9D00C05D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3709521B1886DF9D00C05D18 /* Fibre-Info.plist */,
+				3709521C1886DF9D00C05D18 /* InfoPlist.strings */,
+				3709521F1886DF9D00C05D18 /* main.m */,
+				370952211886DF9D00C05D18 /* Fibre-Prefix.pch */,
+				370952221886DF9D00C05D18 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		370952371886DF9D00C05D18 /* FibreTests */ = {
+			isa = PBXGroup;
+			children = (
+				3709523D1886DF9D00C05D18 /* FibreTests.m */,
+				370952381886DF9D00C05D18 /* Supporting Files */,
+			);
+			path = FibreTests;
+			sourceTree = "<group>";
+		};
+		370952381886DF9D00C05D18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				370952391886DF9D00C05D18 /* FibreTests-Info.plist */,
+				3709523A1886DF9D00C05D18 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3709520F1886DF9D00C05D18 /* Fibre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370952411886DF9D00C05D18 /* Build configuration list for PBXNativeTarget "Fibre" */;
+			buildPhases = (
+				3709520C1886DF9D00C05D18 /* Sources */,
+				3709520D1886DF9D00C05D18 /* Frameworks */,
+				3709520E1886DF9D00C05D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fibre;
+			productName = Fibre;
+			productReference = 370952101886DF9D00C05D18 /* Fibre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		370952301886DF9D00C05D18 /* FibreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 370952441886DF9D00C05D18 /* Build configuration list for PBXNativeTarget "FibreTests" */;
+			buildPhases = (
+				3709522D1886DF9D00C05D18 /* Sources */,
+				3709522E1886DF9D00C05D18 /* Frameworks */,
+				3709522F1886DF9D00C05D18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				370952361886DF9D00C05D18 /* PBXTargetDependency */,
+			);
+			name = FibreTests;
+			productName = FibreTests;
+			productReference = 370952311886DF9D00C05D18 /* FibreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		370952081886DF9D00C05D18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Daniel Finneran";
+				TargetAttributes = {
+					370952301886DF9D00C05D18 = {
+						TestTargetID = 3709520F1886DF9D00C05D18;
+					};
+				};
+			};
+			buildConfigurationList = 3709520B1886DF9D00C05D18 /* Build configuration list for PBXProject "Fibre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 370952071886DF9D00C05D18;
+			productRefGroup = 370952111886DF9D00C05D18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3709520F1886DF9D00C05D18 /* Fibre */,
+				370952301886DF9D00C05D18 /* FibreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3709520E1886DF9D00C05D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3709521E1886DF9D00C05D18 /* InfoPlist.strings in Resources */,
+				3709522C1886DF9D00C05D18 /* Images.xcassets in Resources */,
+				370952241886DF9D00C05D18 /* Credits.rtf in Resources */,
+				3709522A1886DF9D00C05D18 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3709522F1886DF9D00C05D18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3709523C1886DF9D00C05D18 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3709520C1886DF9D00C05D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				370952271886DF9D00C05D18 /* AppDelegate.m in Sources */,
+				370952201886DF9D00C05D18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3709522D1886DF9D00C05D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3709523E1886DF9D00C05D18 /* FibreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		370952361886DF9D00C05D18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3709520F1886DF9D00C05D18 /* Fibre */;
+			targetProxy = 370952351886DF9D00C05D18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3709521C1886DF9D00C05D18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3709521D1886DF9D00C05D18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		370952221886DF9D00C05D18 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370952231886DF9D00C05D18 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		370952281886DF9D00C05D18 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				370952291886DF9D00C05D18 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3709523A1886DF9D00C05D18 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3709523B1886DF9D00C05D18 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3709523F1886DF9D00C05D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		370952401886DF9D00C05D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		370952421886DF9D00C05D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibre/Fibre-Prefix.pch";
+				INFOPLIST_FILE = "Fibre/Fibre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		370952431886DF9D00C05D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibre/Fibre-Prefix.pch";
+				INFOPLIST_FILE = "Fibre/Fibre-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		370952451886DF9D00C05D18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fibre.app/Contents/MacOS/Fibre";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibre/Fibre-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FibreTests/FibreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		370952461886DF9D00C05D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fibre.app/Contents/MacOS/Fibre";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fibre/Fibre-Prefix.pch";
+				INFOPLIST_FILE = "FibreTests/FibreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3709520B1886DF9D00C05D18 /* Build configuration list for PBXProject "Fibre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3709523F1886DF9D00C05D18 /* Debug */,
+				370952401886DF9D00C05D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		370952411886DF9D00C05D18 /* Build configuration list for PBXNativeTarget "Fibre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370952421886DF9D00C05D18 /* Debug */,
+				370952431886DF9D00C05D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		370952441886DF9D00C05D18 /* Build configuration list for PBXNativeTarget "FibreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				370952451886DF9D00C05D18 /* Debug */,
+				370952461886DF9D00C05D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 370952081886DF9D00C05D18 /* Project object */;
+}
