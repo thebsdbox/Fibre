@@ -18,6 +18,9 @@
 		370952341886DF9D00C05D18 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370952131886DF9D00C05D18 /* Cocoa.framework */; };
 		3709523C1886DF9D00C05D18 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3709523A1886DF9D00C05D18 /* InfoPlist.strings */; };
 		3709523E1886DF9D00C05D18 /* FibreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3709523D1886DF9D00C05D18 /* FibreTests.m */; };
+		370952491886E50900C05D18 /* DFTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 370952481886E50900C05D18 /* DFTableView.m */; };
+		378E87B1188816F800FA8D66 /* DFZoneGenerate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378E87B0188816F800FA8D66 /* DFZoneGenerate.m */; };
+		37D3E9E3188EAFEC0055F92C /* fibre.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D3E9E2188EAFEC0055F92C /* fibre.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +46,18 @@
 		370952231886DF9D00C05D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		370952251886DF9D00C05D18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		370952261886DF9D00C05D18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		370952291886DF9D00C05D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3709522B1886DF9D00C05D18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		370952311886DF9D00C05D18 /* FibreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370952321886DF9D00C05D18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		370952391886DF9D00C05D18 /* FibreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FibreTests-Info.plist"; sourceTree = "<group>"; };
 		3709523B1886DF9D00C05D18 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3709523D1886DF9D00C05D18 /* FibreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FibreTests.m; sourceTree = "<group>"; };
+		370952471886E50900C05D18 /* DFTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFTableView.h; sourceTree = "<group>"; };
+		370952481886E50900C05D18 /* DFTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFTableView.m; sourceTree = "<group>"; };
+		378E87AF188816F800FA8D66 /* DFZoneGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DFZoneGenerate.h; path = ../DFZoneGenerate.h; sourceTree = "<group>"; };
+		378E87B0188816F800FA8D66 /* DFZoneGenerate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFZoneGenerate.m; path = ../DFZoneGenerate.m; sourceTree = "<group>"; };
+		37D3E9E2188EAFEC0055F92C /* fibre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fibre.png; path = ../fibre.png; sourceTree = "<group>"; };
+		37E34D8218895C300096866A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +123,15 @@
 		370952191886DF9D00C05D18 /* Fibre */ = {
 			isa = PBXGroup;
 			children = (
+				378E87AF188816F800FA8D66 /* DFZoneGenerate.h */,
+				378E87B0188816F800FA8D66 /* DFZoneGenerate.m */,
+				370952471886E50900C05D18 /* DFTableView.h */,
+				370952481886E50900C05D18 /* DFTableView.m */,
 				370952251886DF9D00C05D18 /* AppDelegate.h */,
 				370952261886DF9D00C05D18 /* AppDelegate.m */,
 				370952281886DF9D00C05D18 /* MainMenu.xib */,
 				3709522B1886DF9D00C05D18 /* Images.xcassets */,
+				37D3E9E2188EAFEC0055F92C /* fibre.png */,
 				3709521A1886DF9D00C05D18 /* Supporting Files */,
 			);
 			path = Fibre;
@@ -234,6 +247,7 @@
 				3709522C1886DF9D00C05D18 /* Images.xcassets in Resources */,
 				370952241886DF9D00C05D18 /* Credits.rtf in Resources */,
 				3709522A1886DF9D00C05D18 /* MainMenu.xib in Resources */,
+				37D3E9E3188EAFEC0055F92C /* fibre.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378E87B1188816F800FA8D66 /* DFZoneGenerate.m in Sources */,
+				370952491886E50900C05D18 /* DFTableView.m in Sources */,
 				370952271886DF9D00C05D18 /* AppDelegate.m in Sources */,
 				370952201886DF9D00C05D18 /* main.m in Sources */,
 			);
@@ -295,7 +311,7 @@
 		370952281886DF9D00C05D18 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				370952291886DF9D00C05D18 /* Base */,
+				37E34D8218895C300096866A /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -387,6 +403,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fibre/Fibre-Prefix.pch";
 				INFOPLIST_FILE = "Fibre/Fibre-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +417,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fibre/Fibre-Prefix.pch";
 				INFOPLIST_FILE = "Fibre/Fibre-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -464,6 +482,7 @@
 				370952431886DF9D00C05D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		370952441886DF9D00C05D18 /* Build configuration list for PBXNativeTarget "FibreTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +491,7 @@
 				370952461886DF9D00C05D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
